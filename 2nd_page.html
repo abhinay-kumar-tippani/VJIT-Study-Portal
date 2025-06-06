@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2nd_page.css">
+    <title>Select Semester</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Select Branch</h2>
+        <button class="sem" id="b1">CSE / (AI-ML) / DS</button>
+        <button class="sem" id="b2">ECE / EEE / IT / Civil / Mech</button>
+        <hr>
+        <button class="sem" id="lab">Lab Materials</button>
+    </div>
+
+    <script>
+        let b1_btn = document.getElementById("b1");
+        let b2_btn = document.getElementById("b2");
+
+        b1_btn.onclick=()=>{
+      console.log("button clicked!");
+      window.location.href = "branch1.html";
+    }
+
+        b2_btn.onclick=()=>{
+      console.log("button clicked!");
+      window.location.href = "branch2.html";
+    }
+    </script>
+</body>
+</html>

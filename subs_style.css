@@ -1,0 +1,123 @@
+/* Reset and font setup */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #c9dfeb;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  height: 100%;
+}
+
+/* Container */
+.container {
+  background-color: whitesmoke;
+  max-width: 800px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Title */
+.container h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: black;
+}
+
+/* PDF List */
+#pdfList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#pdfList li {
+    color: black;
+  background: #6366f1;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ensures child items wrap on small screens */
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+#pdfList li:hover {
+  /* background: rgba(255, 255, 255, 0.2); */
+  transform: translateY(-5px);
+}
+
+/* PDF Name */
+#pdfList li span {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+/* Button Group */
+.btn-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* ✅ Allow buttons to wrap */
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.view-btn {
+  background-color: #3b82f6;
+}
+
+.view-btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.download-btn {
+  background-color: #10b981;
+}
+
+.download-btn:hover {
+  background-color: #059669;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #pdfList li {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; /* Adjust padding */
+  }
+
+  .btn-group {
+    width: 100%;
+    flex-direction: column;
+    gap: 5px; /* Reduce gap slightly for better fit */
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .btn {
+    width: 90%; /* Slightly reduce width to prevent overflow */
+    text-align: center;
+    padding: 12px;
+  }
+}
