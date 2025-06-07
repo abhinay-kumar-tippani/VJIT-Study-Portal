@@ -2,7 +2,7 @@ const pdfList = document.getElementById("pdfList");
 
 async function getData() {
     try {
-        const response = await fetch("chem_pdf.json");
+        const response = await fetch("ap_lab_pdf.json");
         const data = await response.json();
 
         data.forEach(pdf => {

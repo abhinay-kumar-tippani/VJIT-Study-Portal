@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="branch1.css">
+    <title>Select Subjects</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Select Subject</h2>
+        <button class="sub" id="ec">Chemistry Lab</button>
+        <button class="sub" id="ap">Applied Physics Lab</button>
+        <button class="sub" id="eng">English Lab</button>
+        <button class="sub" id="bee">BEE Lab</button>
+        <button class="sub" id="ews">EWS Lab</button>
+    </div>
+
+    <script>
+        // let m2_btn = document.getElementById("b1");
+        let ec_btn = document.getElementById("ec");
+        let ap_btn = document.getElementById("ap");
+        let eng_btn = document.getElementById("eng");
+        let bee_btn = document.getElementById("bee");
+        let ews_btn = document.getElementById("ews");
+
+        ec_btn.onclick = () => {
+            console.log("button clicked!");
+            window.location.href = ("ec_lab.html");
+        }
+
+        ap_btn.onclick = () => {
+            console.log("button clicked!");
+            window.location.href = ("ap_lab.html");
+        }
+
+        eng_btn.onclick = () => {
+            console.log("button clicked!");
+            window.location.href = ("eng_lab.html");
+        }
+
+        bee_btn.onclick = () => {
+            console.log("button clicked!");
+            window.location.href = ("bee_lab.html");
+        }
+
+        ews_btn.onclick = () => {
+            console.log("button clicked!");
+            window.location.href = ("ews_lab.html");
+        }
+    </script>
+</body>
+
+</html>

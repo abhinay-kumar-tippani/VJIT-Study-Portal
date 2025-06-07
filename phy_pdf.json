@@ -1,10 +1,30 @@
 [
-    {
-        "name":"question bank",
-        "file":"phy.pdf"
-    },
-    {
-        "name":"notes",
-        "file":"notes.pdf"
-    }
+  {
+    "name": "AP Question Bank",
+    "file": "ap-qb.pdf"
+  },
+  {
+    "name": "AP UNIT 1",
+    "file": "ap-unit1.pdf"
+  },
+  {
+    "name": "AP UNIT 2",
+    "file": "ap-unit2.pdf"
+  },
+  {
+    "name": "AP UNIT 3",
+    "file": "ap-unit3.pdf"
+  },
+  {
+    "name": "AP UNIT 4",
+    "file": "ap-unit4.pdf"
+  },
+  {
+    "name": "AP UNIT 5-I",
+    "file": "ap-unit5-1.pdf"
+  },
+  {
+    "name": "AP UNIT 5-II",
+    "file": "ap-unit5-2.pdf"
+  }
 ]

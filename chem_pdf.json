@@ -1,10 +1,22 @@
 [
     {
-        "name":"question bank",
-        "file":"phy.pdf"
+        "name":"EC UNIT-I",
+        "file":"ec-unit1.pdf"
     },
     {
-        "name":"notes",
-        "file":"notes.pdf"
+        "name":"EC UNIT-II",
+        "file":"ec-unit2.pdf"
+    },
+    {
+        "name":"EC UNIT-III",
+        "file":"ec-unit3.pdf"
+    },
+    {
+        "name":"EC UNIT-IV",
+        "file":"ec-unit4.pdf"
+    },
+    {
+        "name":"EC UNIT-V",
+        "file":"ec-unit5.pdf"
     }
 ]

@@ -10,8 +10,8 @@ async function getData() {
             li.innerHTML = `
             <span>${pdf.name}</span>
             <div class="btn-group">
-            <a class="btn view-btn" href="${pdf.data} target="_blank">View</a>
-            <a class="btn download-btn" href="${pdf.data}" download>Download</a>
+            <a class="btn view-btn" href="${pdf.file}" target="_blank">View</a>
+            <a class="btn download-btn" href="${pdf.file}" download>Download</a>
             </div>
             `
             pdfList.appendChild(li);
