@@ -230,7 +230,7 @@ body {
   flex-direction: column;
   gap: 40px;
   padding: 16px;
-  margin-top: 25px;
+  margin-top: 100px;
 }
 
 .resources-intro {
@@ -467,4 +467,48 @@ body {
     font-size: 36px;
     font-weight: 900;
   }
+}
+
+.scroll-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.scroll-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff; /* You can change to #00ccff or any better visible color */
+  font-weight: 600;
+  transition: color 0.3s;
+  animation: bounce 1.5s infinite;
+  font-size: 1.05rem;
+}
+
+.scroll-button:hover {
+  color: #00ccff;
+}
+
+.scroll-text {
+  margin-bottom: 4px;
+}
+
+.scroll-icon {
+  font-size: 1.3rem;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }

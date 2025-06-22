@@ -46,6 +46,12 @@
             <button class="primary-button hero-button">
               <span>Get Started</span>
             </button>
+            <div class="scroll-wrapper">
+              <a href="#about" class="scroll-button">
+                <span class="scroll-text">Scroll to know about me</span>
+                <i class="fa-solid fa-angles-down scroll-icon"></i>
+              </a>
+            </div>
           </div>
         </div>
         <!-- <h2 class="section-title">Key Resources</h2> -->
@@ -118,7 +124,7 @@
             </div>
           </div>
         </div>
-        <div class="myinfo">
+        <div class="myinfo" id="about">
           <h2 class="section-title">About Me</h2>
           <div class="about-section">
             <div class="about-content">
@@ -162,7 +168,7 @@
   </div>
   <script>
     let btn = document.querySelector(".primary-button");
-    btn.onclick=()=>{
+    btn.onclick = () => {
       console.log("button clicked!");
       window.location.href = "2nd_page.html";
     }
