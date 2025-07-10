@@ -2,29 +2,29 @@
 
 # merge = PdfMerger()
 
-# merge.append("m2-unit3-ans.pdf")
-# merge.append("m2-unit4-ans.pdf")
-# merge.append("m2-unit5-ans.pdf")
+# merge.append("edc-pyq1.pdf")
+# merge.append("edc-pyq2.pdf")
+# merge.append("edc-pyq3.pdf")
 
-# merge.write("m2-unit3-ans.pdf")
+# merge.write("edc-pyq1.pdf")
 
 # merge.close()
 
 
-# import os
-
-# os.remove("m2-unit4-ans.pdf")
-# os.remove("m2-unit5-ans.pdf")
-
-
-
-
 import os
 
-old = "m2-unit3-ans.pdf"
-new = "m2-unit3-4-5-ans.pdf"
+os.remove("edc-pyq2.pdf")
+os.remove("edc-pyq3.pdf")
 
-os.rename(old,new)
+
+
+
+# import os
+
+# old = "m2-unit3-ans.pdf"
+# new = "m2-unit3-4-5-ans.pdf"
+
+# os.rename(old,new)
 
 
 # # from PIL import Image
