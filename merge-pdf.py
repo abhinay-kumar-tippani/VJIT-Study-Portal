@@ -11,10 +11,9 @@
 # merge.close()
 
 
-import os
+# import os
 
-os.remove("edc-pyq2.pdf")
-os.remove("edc-pyq3.pdf")
+# os.remove("m2-qb.pdf")
 
 
 
