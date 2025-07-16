@@ -2,18 +2,17 @@
 
 # merge = PdfMerger()
 
-# merge.append("ap-pyq1.pdf")
-# merge.append("ap-pyq2.pdf")
-# merge.append("ap-pyq3.pdf")
+# merge.append("ese-pyq.pdf")
+# merge.append("ese-pyq1.pdf")
 
-# merge.write("ap-pyq1.pdf")
+# merge.write("ese-pyq1.pdf")
 
 # merge.close()
 
 
 # import os
 
-# os.remove("ap-pyq2.pdf")
+# os.remove("ese-pyq1.pdf")
 # os.remove("ap-pyq3.pdf")
 
 

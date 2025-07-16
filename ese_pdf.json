@@ -1,10 +1,14 @@
 [
     {
-        "name":"ESE Question Bank",
+        "name":"English Question Bank",
         "file":"ese-qb1.pdf"
     },
     {
-        "name":"ESE Notes (Mid-I)",
+        "name":"English Previous Year Papers",
+        "file":"ese-qb1.pdf"
+    },
+    {
+        "name":"English Notes (Mid-I)",
         "file":"ese-notes1.pdf"
     }
 ]
