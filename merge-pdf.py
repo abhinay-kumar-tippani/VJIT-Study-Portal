@@ -4,15 +4,18 @@
 
 # merge.append("ese-pyq.pdf")
 # merge.append("ese-pyq1.pdf")
+# merge.append("ese-pyq2.pdf")
 
-# merge.write("ese-pyq1.pdf")
+# merge.write("ese-pyq.pdf")
 
 # merge.close()
 
 
-# import os
+import os
 
-# os.remove("ese-pyq1.pdf")
+os.remove("ese-pyq1.pdf")
+os.remove("ese-pyq2.pdf")
+os.remove("ese-pyq2.docx")
 # os.remove("ap-pyq3.pdf")
 
 
@@ -36,3 +39,8 @@
 # # pdf_path = "ap-imp.pdf"
 
 # # img.save(pdf_path,"PDF")
+
+
+# from docx2pdf import convert
+
+# convert("ese-pyq2.docx", "ese-pyq2.pdf")
