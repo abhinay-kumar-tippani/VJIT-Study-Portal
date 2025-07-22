@@ -15,6 +15,7 @@
         <button class="sub" id="ap">Applied Physics (AP)</button>
         <button class="sub" id="ese">English for Skill Enhancement (ESE)</button>
         <button class="sub" id="edc">Electronic Devices and Circuits (EDC)</button>
+        <button class="sub" id="pps">Programming for Problem Solving (PPS)</button>
     </div>
 
     <script>
@@ -23,6 +24,7 @@
         let ap_btn = document.getElementById("ap");
         let ese_btn = document.getElementById("ese");
         let edc_btn = document.getElementById("edc");
+        let pps_btn = document.getElementById("pps");
 
         m2_btn.onclick = () => {
             console.log("button clicked!");
@@ -42,6 +44,11 @@
         edc_btn.onclick = () => {
             console.log("button clicked!");
             window.location.href = ("edc_content.html");
+        }
+
+        pps_btn.onclick = () => {
+            console.log("button clicked!");
+            window.location.href = ("pps_content.html");
         }
     </script>
 </body>
