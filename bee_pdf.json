@@ -10,5 +10,25 @@
     {
         "name":"BEE Unit-3,4,5 Notes",
         "file":"bee-unit3-4-5-notes.pdf"
+    },
+    {
+        "name":"BEE Unit 1",
+        "file":"bee-unit1.pdf"
+    },
+    {
+        "name":"BEE Unit 2",
+        "file":"bee-unit2.pdf"
+    },
+    {
+        "name":"BEE Unit 3",
+        "file":"bee-unit3.pdf"
+    },
+    {
+        "name":"BEE Unit 4",
+        "file":"bee-unit4.pdf"
+    },
+    {
+        "name":"BEE Unit 5",
+        "file":"bee-unit5.pdf"
     }
 ]

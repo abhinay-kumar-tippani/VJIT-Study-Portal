@@ -11,11 +11,11 @@
 # merge.close()
 
 
-import os
+# import os
 
-os.remove("ese-pyq1.pdf")
-os.remove("ese-pyq2.pdf")
-os.remove("ese-pyq2.docx")
+# os.remove("ese-pyq1.pdf")
+# os.remove("ese-pyq2.pdf")
+# os.remove("ese-pyq2.docx")
 # os.remove("ap-pyq3.pdf")
 
 
